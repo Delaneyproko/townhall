@@ -93,12 +93,11 @@ article h2 {
 }
 article img {
 	float: right;
+	border: 1px solid black;
 	margin-top: 3px;
 	margin-bottom: 3px;
 	margin-left: 5px;
-	border: black 1px;
 	margin-right: 6px;
-	padding: 4px;
 }
 article h3 {
 	font-size: 105%;
@@ -131,7 +130,7 @@ main h3 {
 	padding-bottom: .25em;
 	font-size: 105%;
 }
-main img {
+aside img {
 	padding-bottom: 1em;
 }
 
