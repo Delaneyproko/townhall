@@ -60,10 +60,10 @@ section {
 	padding-bottom: 20px;
 }
 section h2 {
-	font-size: 130%;
-	color: #800000;
+	font-size: 105%;
 	padding-top: .5em;
 	padding-bottom: .25em;
+	color: black;
 }
 section p {
 	padding-bottom: .5em;
@@ -76,40 +76,39 @@ section blockquote {
 section h1 {
 	font-size: 150%;
 	padding-top: .5em;
-	padding-bottom: .25em;
+	padding-bottom: .125em;
 	margin-top: 0;
 	margin-bottom: 0;
+	color: #800000;
 }
 
 /* the styles for the article*/
 article {
 	padding-top: .5em;
 	padding-bottom: .5em;
-	border-top: #800000 2px;
-	border-bottom: #800000 2px;
 }
 article h2 {
 	padding-top: 0;
+	font-size: 105%;
 }
 article img {
 	float: right;
 	margin-top: 3px;
-	margin-bottom: 3px;
-	margin-left: 5px;
-	border: black 1px;
+	margin-bottom: 4px;
+	margin-left: 4px;
 	margin-right: 6px;
-	padding: 4px;
+	padding: 5px;
+	border: 1px black;
 }
 article h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
 }
-
-section ul {
+article ul {
 	padding-bottom: .25em;
 	padding-left: 1.25em;
 }
-section li {
+article li {
 	padding-bottom: .35em;
 }
 
@@ -121,15 +120,13 @@ aside {
 	padding-left: 20px;
 }
 main h2 {
-	font-size: 130%;
-	color: #800000;
-	padding-top: .5em;
+	font-size: 105%;
+	padding-top: .125em;
 	padding-bottom: .25em;
 }
 main h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
-	font-size: 105%;
 }
 main img {
 	padding-bottom: 1em;
