@@ -124,11 +124,11 @@ main {
 
 /* the styles for the section*/
 section {
-	width: 53.030303%;
+	width: 75%;
 	float: right;
 	padding-bottom: 20px;
-	padding-right: 2.083%;
-	padding-left: 2.083%;
+	padding-right: 2%;
+	padding-left: 2%;
 }
 section h2 {
 	font-size: 130%;
@@ -190,10 +190,10 @@ section li {
 
 /* the styles for the aside*/
 aside {
-	width: 35.35353%;
-	float: right;
-	padding-right: 20px;
-	padding-left: 20px 2.02020202%;
+	width: 25%;
+	float: left;
+	padding-right: .5%;
+	padding-left: 2%;
 }
 main h2 {
 	font-size: 130%;
@@ -209,9 +209,6 @@ main h3 {
 aside img {
 	padding-bottom: 1em;
 }
-aside div {
-	column-count: 2;
-  }
 
 
 /* mouse over link */
@@ -251,12 +248,12 @@ footer p {
 	}
 	section {
 		float: none;
-		width: 95.834%;
+		width: 95%;
 	}
 	aside {
 		float: none;
-		padding-right: 20px 2.02020202%;
-		width: 95.959596%;
+		padding-right: 1.5%;
+		width: 20%;
 	}
 	article img {
 		max-width: 30%;
