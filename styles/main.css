@@ -228,6 +228,10 @@ footer p {
 	clear: both;
 }
 
+#mobile_menu {
+	display: none;
+}
+
 @media only screen and (max-width: 959px) {
 	section h1 {
 		font-size: 135%;
@@ -262,5 +266,14 @@ footer p {
 }
 
 @media only screen and (max-width: 479px) {
+	#nav_menu {
+		display: none;
+	}
+	#mobile_menu {
+		display: block;
+	}
+	.slicknav_menu {
+		background-color: #800000 !important;
+	}
 	font-size: 90%;
 }
